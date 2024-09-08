@@ -13,4 +13,10 @@ De las soluciones encontradas para el desafio se escogió la mejor calificada. D
 ![Texto alternativo](images/Code_Kaggle.jpg)
 
 El codigo disponible se ejecutó en la herramienta Google Colab, para una correcta ejecución es necesario importar la base de datos desde Kaggle por lo que debe descargarse el archivo que llamado "kaggle.json" que se encuentra dentro de la carpeta fase-1. Tal como se puede ver en la siguiente imagen: ![Texto alternativo](images/Recorte_Token.jpg)
+Una vez se descarga el archivo se procede a la ejecución en Kaggle y este se carga posterior a la ejecución de la linea de comando files.upload() tal como se puede ver en las imagenes:
+![Texto alternativo](images/Cargar_Archivo.jpg)
+![Texto alternativo](images/Cargar_Kaggle.jpg)
+Posterior a la carga y lectura del archivo se puede acceder a la base de datos para su utilización en el proyecto.
+![Texto alternativo](images/Archivo_Cargado.jpg)
+
 
