@@ -43,4 +43,6 @@ Posterior a la carga y lectura del archivo se puede acceder a la base de datos p
 
 Luego de cargar la información se descomprimen los archivos en las carpetas creadas en COLAB
 
-![Texto alternativo](images/Base_Datos.jpg)
+![Texto alternativo](images/Base_Datos.png)
+
+Una vez se tiene la información en carpetas, se procede a hacer la preparación de datos. Para esto se van a usar 30.000 Datos cuya salida sea 0, y 30.000 datos con salida 1
