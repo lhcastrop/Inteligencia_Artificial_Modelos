@@ -59,3 +59,5 @@ Los ECFP son identificadores de cada molecula, y dependiendo de la cantidad de r
 
 El siguiente paso es el entrenamiento del modelo. Para esto, primero se codifican las tres proteinas usando un encoder, y luego se hace combinación entre los ECFP ya obtenidos de las moleculas y las proteinas codificadas, para obtener la matriz de entrada X. Las salidas corresponden a las respectivas afinidades entre 0 y 1. Teniendo X y Y se entrena el modelo usando random Forest.
 
+![Texto alternativo](images/ModeloEntrenamiento.png)
+
