@@ -1,4 +1,4 @@
-# Proyecto_Sustituto_Inteligencia_Artificial
+<em> # Proyecto_Sustituto_Inteligencia_Artificial</em>
 
 ## Contexto
 
@@ -8,3 +8,5 @@ BELKA es una Gran Biblioteca Codificada para la Evaluación Química que contien
 La competición buscaba el uso de Modelos de Machine Learning para predecir la afinidad entre moleculas pequeñas y determinadas proteinas objetivo usando la Gran Biblioteca Codificada para la Evaluación Quimica (BELKA).
 
 ## Codigo
+
+De las soluciones encontradas para el desafio se escogió la mejor calificada. Dicha solución se puede consultar en el siguiente enlace: https://www.kaggle.com/code/andrewdblevins/leash-tutorial-ecfps-and-random-forest
