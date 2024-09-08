@@ -50,3 +50,5 @@ Una vez se tiene la información en carpetas, se procede a hacer la preparación
 ![Texto alternativo](images/TomaDatos.png)
 
 Una vez se tienen los datos, se van a obtener los SMILES almacenados en df, y se van a procesar con la ayuda de la herramienta rkdit: con el numero de SMILES se obtiene la molécula y posteriormente se obtiene el ecfp, con la ayuda de la misma herramienta.
+
+![Texto alternativo](images/MoleculaToECFP.png)
