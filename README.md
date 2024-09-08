@@ -1,4 +1,5 @@
-<em> # Proyecto_Sustituto_Inteligencia_Artificial </em>
+<h1 align="center"> Proyecto_Sustituto_Inteligencia_Artificial </h1>
+
 
 ## Contexto
 
