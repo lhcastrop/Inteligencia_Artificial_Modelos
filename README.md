@@ -10,7 +10,7 @@ La competición buscaba el uso de Modelos de Machine Learning para predecir la a
 
 ## Codigo
 
-De las soluciones encontradas para el desafio se escogió la mejor calificada. Dicha solución se puede consultar en el siguiente enlace: https://www.kaggle.com/code/andrewdblevins/leash-tutorial-ecfps-and-random-forest.
+De las soluciones encontradas para el desafio se escogió la mejor calificada. Dicha solución tal como se ve en la siguiente imagen se puede consultar en el siguiente enlace https://www.kaggle.com/code/andrewdblevins/leash-tutorial-ecfps-and-random-forest: 
 ![Texto alternativo](images/Code_Kaggle.jpg)
 
 El codigo disponible se ejecutó en la herramienta Google Colab, para una correcta ejecución es necesario importar la base de datos desde Kaggle por lo que debe descargarse el archivo que llamado "kaggle.json" que se encuentra dentro de la carpeta fase-1. Tal como se puede ver en la siguiente imagen: ![Texto alternativo](images/Recorte_Token.jpg)
