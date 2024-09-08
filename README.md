@@ -52,3 +52,10 @@ Una vez se tiene la información en carpetas, se procede a hacer la preparación
 Una vez se tienen los datos, se van a obtener los SMILES almacenados en df, y se van a procesar con la ayuda de la herramienta rkdit: con el numero de SMILES se obtiene la molécula y posteriormente se obtiene el ecfp, con la ayuda de la misma herramienta.
 
 ![Texto alternativo](images/MoleculaToECFP.png)
+
+Los ECFP son identificadores de cada molecula, y dependiendo de la cantidad de radios pueden tener distintos identificadores:
+
+![Texto alternativo](images/ECFP.png)
+
+El siguiente paso es el entrenamiento del modelo. Para esto, primero se codifican las tres proteinas usando un encoder, y luego se hace combinación entre los ECFP ya obtenidos de las moleculas y las proteinas codificadas, para obtener la matriz de entrada X. Las salidas corresponden a las respectivas afinidades entre 0 y 1. Teniendo X y Y se entrena el modelo usando random Forest.
+
