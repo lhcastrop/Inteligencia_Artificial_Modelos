@@ -13,6 +13,7 @@ De las soluciones encontradas para el desafio se escogió la mejor calificada. D
 ![Texto alternativo](images/Code_Kaggle.jpg)
 
 El codigo disponible se ejecutó en la herramienta Google Colab, y se puede acceder a través del siguiente enlace: https://colab.research.google.com/drive/1TFxXRKhgDSLkFGkjLCTNdW86vjXow0LB?usp=sharing
+![Texto alternativo](images/Recorte_Colab.jpg)
 
 Para una correcta ejecución es necesario importar la base de datos desde Kaggle por lo que debe descargarse el archivo que llamado "kaggle.json" que se encuentra dentro de la carpeta fase-1. Tal como se puede ver en la siguiente imagen: ![Texto alternativo](images/Recorte_Token.jpg)
 Una vez se descarga el archivo se procede a la ejecución en Kaggle y este se carga posterior a la ejecución de la linea de comando files.upload() tal como se puede ver en las imagenes:
