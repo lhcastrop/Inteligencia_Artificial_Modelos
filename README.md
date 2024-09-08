@@ -5,7 +5,7 @@
 
 En el siguiente proyecto se utilizó una solución disponible para la Competición de Kaggle llamada "NeurIPS 2024 - Predict New Medicines with BELKA". La competición buscaba el uso de Modelos de Machine Learning para predecir la afinidad entre moleculas pequeñas y determinadas proteinas objetivo usando la Gran Biblioteca Codificada para la Evaluación Quimica (BELKA).
 
-La predicción de afinidad de las moleculas pequeñas a ciertas proteínas es fundamental para el desarrollo de medicina en la industria farmaceutica. Para el caso de la competición se usará una parte de los datos obtenidos epetimentalmente en pruebas realizadas por Leash Bioscience, los cuales se encuentran en la BELKA.
+La predicción de afinidad de las moleculas pequeñas a ciertas proteínas es fundamental para el desarrollo de medicina en la industria farmaceutica. Para el caso de la competición se usará una parte de los datos obtenidos experimentalmente en pruebas realizadas por Leash Bioscience, los cuales se encuentran en la BELKA.
 
 BELKA es una Gran Biblioteca Codificada para la Evaluación Química que contiene aproximadamente 3.6 mil millones de mediciones de unión física entre 3.6 mil millones de moléculas pequeñas y 3 proteinas objetivo utilizando la tecnologia de biblioteca química codificada por ADN. 
 
