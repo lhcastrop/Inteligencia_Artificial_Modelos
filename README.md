@@ -45,4 +45,8 @@ Luego de cargar la información se descomprimen los archivos en las carpetas cre
 
 ![Texto alternativo](images/Base_Datos.png)
 
-Una vez se tiene la información en carpetas, se procede a hacer la preparación de datos. Para esto se van a usar 30.000 Datos cuya salida sea 0, y 30.000 datos con salida 1
+Una vez se tiene la información en carpetas, se procede a hacer la preparación de datos. Para esto se van a usar 30.000 Datos cuya salida sea 0, y 30.000 datos con salida 1; los cuales son de la base de datos con extensión .parquet
+
+![Texto alternativo](images/TomaDatos.png)
+
+Una vez se tienen los datos, se van a obtener los SMILES almacenados en df, y se van a procesar con la ayuda de la herramienta rkdit: con el numero de SMILES se obtiene la molécula y posteriormente se obtiene el ecfp, con la ayuda de la misma herramienta.
