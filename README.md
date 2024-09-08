@@ -41,4 +41,6 @@ Posterior a la carga y lectura del archivo se puede acceder a la base de datos p
 
 ![Texto alternativo](images/Archivo_Cargado.jpg)
 
+Luego de cargar la información se descomprimen los archivos en las carpetas creadas en COLAB
 
+![Texto alternativo](images/Base_Datos.jpg)
