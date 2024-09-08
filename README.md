@@ -61,3 +61,6 @@ El siguiente paso es el entrenamiento del modelo. Para esto, primero se codifica
 
 ![Texto alternativo](images/ModeloEntrenamiento.png)
 
+Luego se prueba el modelo, usando el archivo test.csv y el modelo ya obtenido. La salida es un archivo llamado submission.csv en el cual se obtienen los identificadores de las moleculas y las respectivas afinidades:
+
+![Texto alternativo](images/Prueba.png)
