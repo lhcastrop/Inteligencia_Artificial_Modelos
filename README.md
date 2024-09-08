@@ -1,4 +1,4 @@
-<em> # Proyecto_Sustituto_Inteligencia_Artificial</em>
+<em> # Proyecto_Sustituto_Inteligencia_Artificial </em>
 
 ## Contexto
 
