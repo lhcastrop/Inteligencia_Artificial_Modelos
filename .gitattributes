@@ -1,1 +1,2 @@
 fase-2/model.pkl filter=lfs diff=lfs merge=lfs -text
+fase-2/train.parquet filter=lfs diff=lfs merge=lfs -text
