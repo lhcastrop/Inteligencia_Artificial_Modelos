@@ -47,13 +47,13 @@ logger.info("loading train data")
 #Se manipula la base datos de entrada
 con = duckdb.connect()
 df = con.query(f"""(SELECT *
-                        FROM parquet_scan('{data_file}')
+                        FROM read_csv_auto('{data_file}')
                         WHERE binds = 0
                         ORDER BY random()
                         LIMIT 30000)
                         UNION ALL
                         (SELECT *
-                        FROM parquet_scan('{data_file}')
+                        FROM read_csv_auto('{data_file}')
                         WHERE binds = 1
                         ORDER BY random()
                         LIMIT 30000)""").df()

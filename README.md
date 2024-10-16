@@ -1,3 +1,56 @@
+<h1 align="center"> Parte 2: Despliegue de Modelo en Contenedor </h1>
+
+## Modificación Scripts
+
+El script generado en la parte inicial del curso es modificado en dos archivos de tal forma que el archivo original pueda ser llamado desde otro central Nombrado Run_scripts.
+En este script se llaman los arhivos Necesarios para entrenar y predecir, asi como un archivo de salida de predicciones y otro que permita cargar un modelo.
+
+![Texto alternativo](images/Lecturadatos.png)
+
+Una vez se tienen los archivos requeridos el script ejecuta los scripts .py para entrenar (train.py) y para predecir (predict.py), los cuales usan los archivos requeridos según el caso.
+
+![Texto alternativo](images/EntrenarYPredecir.png)
+
+El Script Train.py como se ha mencionado antes, recibe el Archivo con datos para llevar a cabo el entrenamiento y tiene como salida el modelo, el cual es sobre escrito tras el entrenamiento.
+
+![Texto alternativo](images/LecturaTrain.png)
+
+![Texto alternativo](images/ModeloTrain.png)
+
+Para el caso de Predic.py, se recibe tanto el archivo que tiene el modelo cargado como los datos de predicción. La salida del script es un archivo .csv con las respectivas predicciones.
+
+![Texto alternativo](images/LecturaPredict.png)
+
+![Texto alternativo](images/PredictScript.png)
+
+## Creación de Docker
+
+Inicialmente se crea el DockerFile y se configura el archivo requirements.txt. El Dockerfile es usado para la creación del contenedor y el de requirements.txt tiene las dependencias necesarias para la ejecución de los scripts. Adicionalmente, se instalan unas librerías necesarias para que al dependencia rdkit pueda ejecutarse.
+
+![Texto alternativo](images/DockerFile_.png)
+
+Posteriormente, se obtiene la imagen del contenedor para la ejecución.
+
+![Texto alternativo](images/ImagenDocker.png)
+
+## Obtención Base Datos de entrenamiento
+
+En la fase 1 del Proyecto se usaba una base de datos con una cantidad enorme de datos, lo cual dificultaba su posible subida a Github. Para poder llevar a cabo el entrenamiento se obtiene una nueva base de datos con 900.000 datos, para lo cual se obtiene un archico .csv que obtiene dichos datos aleatorios de la base original.
+
+![Texto alternativo](images/ObtencionBase.png)
+
+## Prueba de ejecución - Entrenamiento
+
+Inicialmente se tiene una base de datos de entrenamiento, que se obtiene como ya se había mencionado. Se entrena el modelo con la base de datos, y se sobre escribe el archivo original de modelo. Para el caso de local se usa el siguiente código: docker run -v (RUTA LOCAL PROYECTO):/app/data imagen2 python /app/data/Scripts/train.py --data_file /app/data/train.csv --model_file /app/data/model.pkl --overwrite_model
+
+![Texto alternativo](images/EntrenamientoDocker.png)
+
+## Prueba de ejecución - Predicción
+
+Inicialmente se guarda un modelo, y se lleva a cabo la predicción de afinidades usando docker. Para el caso de local se usa el siguiente código: docker run -v (RUTA LOCAL PROYECTO):/app/data imagen2 python /app/data/predict.py --input_file /app/data/test_data_input.csv --model_file /app/data/model.pkl --predictions_file /app/data/test_predictions.csv
+
+![Texto alternativo](images/PrediccionDocker.png)
+
 <h1 align="center"> Proyecto_Sustituto_Inteligencia_Artificial </h1>
 
 ![Texto alternativo](images/Recurso_Kaggle.jpg)
@@ -68,3 +121,4 @@ Luego se prueba el modelo, usando el archivo test.csv y el modelo ya obtenido. L
 Finalmente, se obtienen los siguientes resultados:
 
 ![Texto alternativo](images/Resultados.png)
+
