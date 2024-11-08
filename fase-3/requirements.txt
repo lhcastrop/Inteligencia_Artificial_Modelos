@@ -1,0 +1,9 @@
+
+rdkit-pypi
+scikit-learn
+loguru
+duckdb
+pandas
+numpy<2
+pybind11>=2.12
+flask
