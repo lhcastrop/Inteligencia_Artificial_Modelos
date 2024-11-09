@@ -6,7 +6,16 @@ Para ejecutar el proyecto en Docker se debe realizar lo siguiente:
 
 ### 1. Construir el contenedor
 
+Se debe ejecutar el siguiente comando para construir la imagen Docker:
+
  ``` docker build -t mi_api_rest . ```
+
+ 
+### 2. Ejecutar el contenedor Docker con volúmenes montados
+
+Luego, ejecuta el contenedor con los volúmenes montados para que los archivos generados (model.pkl y test_predictions.csv) se guarden en tu máquina local:
+
+``` docker run -p 5000:5000 -v "$(pwd)/models:/app/models" -v "$(pwd)/predictions:/app/predictions" mi_api_rest ```
 
 
 <h1 align="center"> Fase 2: Despliegue de Modelo en Contenedor </h1>
