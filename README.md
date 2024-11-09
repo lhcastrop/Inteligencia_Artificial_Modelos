@@ -1,5 +1,12 @@
 <h1 align="center"> Fase 3: Creación API REST </h1>
 
+## Ejecución
+
+Para ejecutar el proyecto en Docker se debe realizar lo siguiente:
+
+# 1. Construir el contenedor
+
+
 <h1 align="center"> Fase 2: Despliegue de Modelo en Contenedor </h1>
 
 ## Modificación Scripts
