@@ -6,7 +6,7 @@ Para ejecutar el proyecto en Docker se debe realizar lo siguiente:
 
 ### 1. Construir el contenedor
 
- "```" docker build -t mi_api_rest . "```"
+ "``` docker build -t mi_api_rest . ```"
 
 
 <h1 align="center"> Fase 2: Despliegue de Modelo en Contenedor </h1>
