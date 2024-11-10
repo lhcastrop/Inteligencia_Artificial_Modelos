@@ -50,6 +50,10 @@ El resultado en la terminal de donde esta ejecutandose el contenedor se ve como 
 
 ![Texto alternativo](images/Resultado_Ejecucion.jpg)
 
+Al revisar la carpeta models se puede notar que se almaceno el modelo generado:
+
+
+
 <h1 align="center"> Fase 2: Despliegue de Modelo en Contenedor </h1>
 
 ## Modificación Scripts
