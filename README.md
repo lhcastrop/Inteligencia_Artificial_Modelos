@@ -36,7 +36,7 @@ El resultado de la ejecución de client.py en una terminal diferente se ve como 
 
 El resultado en la terminal de donde esta ejecutandose el contenedor se ve como sigue: 
 
-
+![Texto alternativo](images/Resultado_Ejecucion.jpg)
 
 <h1 align="center"> Fase 2: Despliegue de Modelo en Contenedor </h1>
 
