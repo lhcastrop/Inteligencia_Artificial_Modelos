@@ -50,9 +50,11 @@ El resultado en la terminal de donde esta ejecutandose el contenedor se ve como 
 
 ![Texto alternativo](images/Resultado_Ejecucion.jpg)
 
+
 Al revisar la carpeta models se puede notar que se almaceno el modelo generado:
 
 ![Texto alternativo](images/Modelo_Generado2.png)
+
 
 En la carpeta predictions se almacena el archivo test_predictions.csv que contiene el resultado de la predicción:
 
