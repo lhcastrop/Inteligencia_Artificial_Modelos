@@ -30,7 +30,12 @@ Una vez que el contenedor está en ejecución y la API está disponible en http:
 
 ``` python client.py```
 
+El resultado de la ejecución de client.py en una terminal diferente se ve como sigue:
+
 ![Texto alternativo](images/Ejecucion_client.jpg)
+
+El resultado en la terminal de donde esta ejecutandose el contenedor se ve como sigue: 
+
 
 
 <h1 align="center"> Fase 2: Despliegue de Modelo en Contenedor </h1>
