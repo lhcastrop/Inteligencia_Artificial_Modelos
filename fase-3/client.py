@@ -5,7 +5,7 @@ import os
 import pandas as pd
 def train_model():
     response = requests.post('http://localhost:5000/train')
-    print(response.json())
+    #print(response.json())
     
     # Esperar un momento para que el modelo se guarde
     time.sleep(10)
@@ -35,3 +35,4 @@ if __name__ == '__main__':
 
     # Predecir usando los datos cargados
     predict(input_data)
+

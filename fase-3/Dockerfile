@@ -27,10 +27,12 @@ COPY test_data_input.csv ./
 COPY test_data_target.csv ./
 
 # Limpia la caché de pip
-RUN pip cache purge
+#RUN pip cache purge
 
-# Instala las dependencias
+# Instala las dependencias y se da un timeout de 15 min en caso de la conexion a Internet sea lenta
 RUN pip install --no-cache-dir -r requirements.txt --timeout=900
+
+
 
 # Expone el puerto del API
 EXPOSE 5000
