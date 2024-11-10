@@ -9,6 +9,9 @@ Para ejecutar el proyecto en Docker se debe descargar los archivos que se encuen
 Una vez descargada la carpeta se debe abrir una terminal desde donde alla quedado ubicada la carpeta fase-3. En la terminal se debe ejecutar el siguiente comando para construir la imagen Docker:
 
  ``` docker build -t mi_api_rest . ```
+ 
+
+![Texto alternativo](images/Creacion_Imagen.jpg)
 
  
 #### 2. Ejecutar el contenedor Docker con volúmenes montados
@@ -17,12 +20,23 @@ Luego en la misma terminal, ejecutar el contenedor con los volúmenes montados p
 
 ``` docker run -p 5000:5000 -v "$(pwd)/models:/app/models" -v "$(pwd)/predictions:/app/predictions" mi_api_rest ```
 
+
+![Texto alternativo](images/Ejecucion_contenedor.jpg)
+
+
 #### 3. Ejecutar client.py para Entrenar el Modelo y Hacer Predicciones
 
 Una vez que el contenedor está en ejecución y la API está disponible en http://localhost:5000, se abre otra terminal para ejecutar el archivo client.py lo que permite interactuar con la API y realizar el entrenamiento del modelo y hacer predicciones:
 
 ``` python client.py```
 
+El resultado de la ejecución de client.py en una terminal diferente se ve como sigue:
+
+![Texto alternativo](images/Ejecucion_client.jpg)
+
+El resultado en la terminal de donde esta ejecutandose el contenedor se ve como sigue: 
+
+![Texto alternativo](images/Resultado_Ejecucion.jpg)
 
 <h1 align="center"> Fase 2: Despliegue de Modelo en Contenedor </h1>
 
