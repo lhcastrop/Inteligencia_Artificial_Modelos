@@ -33,7 +33,7 @@ Luego en la misma terminal, ejecutar el contenedor con los volúmenes montados p
 El modelo generado (model.pkl) y los resultados de la predicción (test_predictions.csv) se almacenaran en las carpetas models y predictions respectivamente:
 
 
-![Texto alternativo](images/Carpetas_Almacenamiento.jpg)
+![Texto alternativo](images/Carpeta_Almacenamiento.jpg)
 
 
 #### 3. Ejecutar client.py para Entrenar el Modelo y Hacer Predicciones
