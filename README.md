@@ -21,6 +21,7 @@ Luego en la misma terminal, ejecutar el contenedor con los volúmenes montados p
 
 Una vez que el contenedor está en ejecución y la API está disponible en http://localhost:5000, se abre otra terminal para ejecutar el archivo client.py lo que permite interactuar con la API y realizar el entrenamiento del modelo y hacer predicciones:
 
+``` python client.py```
 
 
 <h1 align="center"> Fase 2: Despliegue de Modelo en Contenedor </h1>
