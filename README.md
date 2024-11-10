@@ -10,6 +10,7 @@ Una vez descargada la carpeta se debe abrir una terminal desde donde alla quedad
 
  ``` docker build -t mi_api_rest . ```
 
+![Texto alternativo](images/Creacion_Imagen.jpg)
  
 #### 2. Ejecutar el contenedor Docker con volúmenes montados
 
