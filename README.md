@@ -52,11 +52,11 @@ El resultado en la terminal de donde esta ejecutandose el contenedor se ve como 
 
 Al revisar la carpeta models se puede notar que se almaceno el modelo generado:
 
-
+![Texto alternativo](images/Modelo_Generado2.png)
 
 En la carpeta predictions se almacena el archivo test_predictions.csv que contiene el resultado de la predicción:
 
-![Texto alternativo](images/Prediccion_Generada.png)
+![Texto alternativo](images/Prediccion_Generada2.png)
 
 
 En este archivo se tienen los resultados de la predicción de la afinidad de los distintos compuestos a las proteinas, el 0 indica no afinidad y el 1 afinidad:
