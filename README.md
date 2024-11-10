@@ -18,6 +18,8 @@ Luego en la misma terminal, ejecutar el contenedor con los volúmenes montados p
 
 ``` docker run -p 5000:5000 -v "$(pwd)/models:/app/models" -v "$(pwd)/predictions:/app/predictions" mi_api_rest ```
 
+![Texto alternativo](images/Ejecucion_contenedor.jpg)
+
 #### 3. Ejecutar client.py para Entrenar el Modelo y Hacer Predicciones
 
 Una vez que el contenedor está en ejecución y la API está disponible en http://localhost:5000, se abre otra terminal para ejecutar el archivo client.py lo que permite interactuar con la API y realizar el entrenamiento del modelo y hacer predicciones:
