@@ -33,8 +33,6 @@ Luego en la misma terminal, ejecutar el contenedor con los volúmenes montados p
 El modelo generado (model.pkl) y los resultados de la predicción (test_predictions.csv) se almacenaran en las carpetas models y predictions respectivamente:
 
 
-![Texto alternativo](images/Carpetas_Almacenamiento.jpg)
-
 #### 3. Ejecutar client.py para Entrenar el Modelo y Hacer Predicciones
 
 Una vez que el contenedor está en ejecución y la API está disponible en http://localhost:5000, se abre otra terminal para ejecutar el archivo client.py lo que permite interactuar con la API y realizar el entrenamiento del modelo y hacer predicciones:
