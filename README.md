@@ -13,6 +13,12 @@ Una vez descargada la carpeta se debe abrir una terminal desde donde alla quedad
 
 ![Texto alternativo](images/Creacion_Imagen.jpg)
 
+
+La imagen creada se puede visualizar en Docker Desktop como sigue:
+
+
+![Texto alternativo](images/Imagen_Creada_Docker.jpg)
+
  
 #### 2. Ejecutar el contenedor Docker con volúmenes montados
 
@@ -23,6 +29,11 @@ Luego en la misma terminal, ejecutar el contenedor con los volúmenes montados p
 
 ![Texto alternativo](images/Ejecucion_contenedor.jpg)
 
+
+El modelo generado (model.pkl) y los resultados de la predicción (test_predictions.csv) se almacenaran en las carpetas models y predictions respectivamente:
+
+
+![Texto alternativo](images/Carpetas_Almacenamiento.jpg)
 
 #### 3. Ejecutar client.py para Entrenar el Modelo y Hacer Predicciones
 
